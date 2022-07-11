@@ -83,6 +83,7 @@ p {
     background-color: antiquewhite;
     flex-basis: 200px;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -90,14 +91,15 @@ p {
     background-color: white;
     flex-basis: 200px;
     flex: wrap;
-    align-items: flex-start;
+    justify-content: space-around;
 }
 
 .third {
     background-color: antiquewhite;
     flex-basis: 200px;
-    align-items: flex-end;
+    justify-content: space-around;
     flex: wrap;
+    align-items: flex-end;
 }
 
 .fourth {
@@ -105,26 +107,16 @@ p {
     flex-basis: 300px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-
-
 
 
 .endmenu {
+    height: 250px;
     background-color: rgb(87, 165, 42);
-    flex-basis: 250px;
     flex-direction: row;
+
     justify-content: space-around;
 
 
-}
-
-span {
-    font-size: 50px;
-    color: blue;
-}
-
-h2 {
-    font-size: 70px;
-    color: blue;
 }

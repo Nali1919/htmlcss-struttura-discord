@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containter {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.header1 {
+    height: 100px;
+    background-color: aqua;
+
+}
+
+.header2 {
+    height: 500px;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 100px;
+    color: aliceblue;
+}
+
+.cotitle {
+    color: black;
+    font-size: 90px;
+
+
+
+
+}
+
+.par {
+    color: black;
+}
+
+p {
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+.mainmenu {
+    flex-grow: 1;
+    background-color: brown;
+
+}
+
+.first {
+    background-color: antiquewhite;
+    height: 400px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.second {
+    background-color: white;
+    height: 400px;
+    flex: wrap;
+    align-items: flex-start;
+}
+
+.third {
+    background-color: antiquewhite;
+    height: 400px;
+    align-items: flex-end;
+    flex: wrap;
+}
+
+.fourth {
+    background-color: white;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.endmenu {
+    background-color: brown;
+    height: 250px;
+
+
+
+}
